@@ -44,7 +44,9 @@ radius = 5.0
 height = 10.0
 
 [node name="Player" type="CharacterBody2D"]
+position = Vector2(548, 277)
 script = ExtResource("1_p6gx7")
+metadata/_edit_group_ = true
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(4, -47)
@@ -52,8 +54,10 @@ scale = Vector2(8.5, 7.625)
 sprite_frames = SubResource("SpriteFrames_03cuk")
 animation = &"idle"
 frame_progress = 0.293574
+metadata/_edit_group_ = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(1, 1.90735e-06)
 scale = Vector2(8.5, 7.625)
 shape = SubResource("CapsuleShape2D_gcw2g")
+metadata/_edit_group_ = true
