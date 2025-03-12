@@ -45,6 +45,7 @@ height = 10.0
 
 [node name="Player" type="CharacterBody2D"]
 position = Vector2(548, 277)
+motion_mode = 1
 script = ExtResource("1_p6gx7")
 metadata/_edit_group_ = true
 
