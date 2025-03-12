@@ -1,7 +1,6 @@
-[gd_scene load_steps=4 format=3 uid="uid://b8hiikivsr0sj"]
+[gd_scene load_steps=3 format=3 uid="uid://b8hiikivsr0sj"]
 
 [ext_resource type="PackedScene" uid="uid://yy2qibhtm1mr" path="res://player.tscn" id="1_fn3hr"]
-[ext_resource type="Texture2D" uid="uid://bt1vis3sxs0yj" path="res://N_b6N3.png" id="2_bs5wk"]
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_wxi8h"]
 normal = Vector2(-0.0213855, -0.999771)
@@ -20,8 +19,3 @@ position = Vector2(-11, 0)
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
 position = Vector2(-6, -47)
 shape = SubResource("WorldBoundaryShape2D_wxi8h")
-
-[node name="NB6n3" type="Sprite2D" parent="."]
-z_index = -4
-position = Vector2(30, -54)
-texture = ExtResource("2_bs5wk")
