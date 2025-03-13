@@ -1,6 +1,6 @@
-[gd_scene format=3 uid="uid://d3lxdhdga663c"]
+[gd_scene format=3 uid="uid://hc3wb2624to3"]
 
-[node name="Node2D" type="Node2D"]
+[node name="textboxes" type="Node2D"]
 
 [node name="Intro" type="Label" parent="."]
 offset_right = 2100.0
