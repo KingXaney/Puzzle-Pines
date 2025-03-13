@@ -1,7 +1,8 @@
-[gd_scene load_steps=4 format=3 uid="uid://dofs3ejwsfef0"]
+[gd_scene load_steps=5 format=3 uid="uid://dofs3ejwsfef0"]
 
 [ext_resource type="Texture2D" uid="uid://bt1vis3sxs0yj" path="res://N_b6N3.png" id="1_tjikj"]
 [ext_resource type="PackedScene" uid="uid://yy2qibhtm1mr" path="res://player.tscn" id="2_o7kke"]
+[ext_resource type="PackedScene" uid="uid://hc3wb2624to3" path="res://textboxes.tscn" id="3_0n0t7"]
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_iuoa5"]
 distance = -431.0
@@ -32,3 +33,5 @@ metadata/_edit_group_ = true
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
 shape = SubResource("WorldBoundaryShape2D_iuoa5")
 metadata/_edit_group_ = true
+
+[node name="Intro" parent="." instance=ExtResource("3_0n0t7")]
