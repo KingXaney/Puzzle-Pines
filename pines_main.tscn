@@ -5,13 +5,13 @@
 [ext_resource type="PackedScene" uid="uid://yy2qibhtm1mr" path="res://player.tscn" id="2_o7kke"]
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_iuoa5"]
-distance = -493.0
+distance = -431.0
 
 [node name="pines_main" type="Node2D"]
 script = ExtResource("1_axxh5")
 
 [node name="Player" parent="." instance=ExtResource("2_o7kke")]
-position = Vector2(373, 391)
+position = Vector2(371, 327)
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
 
