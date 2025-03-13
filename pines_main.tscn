@@ -1,11 +1,22 @@
+<<<<<<< HEAD
 [gd_scene load_steps=3 format=3 uid="uid://cjn8hbg74fy4x"]
+=======
+[gd_scene load_steps=5 format=3 uid="uid://cjn8hbg74fy4x"]
+>>>>>>> 75884eefff5d676e9890ea50f00e05d3626978d3
 
 [ext_resource type="Texture2D" uid="uid://bt1vis3sxs0yj" path="res://N_b6N3.png" id="1_tjikj"]
 [ext_resource type="PackedScene" uid="uid://yy2qibhtm1mr" path="res://player.tscn" id="2_o7kke"]
 
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_iuoa5"]
+distance = -493.0
+
 [node name="pines_main" type="Node2D"]
 
 [node name="Player" parent="." instance=ExtResource("2_o7kke")]
+<<<<<<< HEAD
+=======
+position = Vector2(373, 391)
+>>>>>>> 75884eefff5d676e9890ea50f00e05d3626978d3
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
 
@@ -20,3 +31,9 @@ metadata/_edit_group_ = true
 position = Vector2(568, 306)
 texture = ExtResource("1_tjikj")
 metadata/_edit_group_ = true
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(6, -4)
+shape = SubResource("WorldBoundaryShape2D_iuoa5")
