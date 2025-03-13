@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=3 uid="uid://cjn8hbg74fy4x"]
+[gd_scene load_steps=4 format=3 uid="uid://dofs3ejwsfef0"]
 
 [ext_resource type="Texture2D" uid="uid://bt1vis3sxs0yj" path="res://N_b6N3.png" id="1_tjikj"]
 [ext_resource type="PackedScene" uid="uid://yy2qibhtm1mr" path="res://player.tscn" id="2_o7kke"]
@@ -26,7 +26,7 @@ texture = ExtResource("1_tjikj")
 metadata/_edit_group_ = true
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
-position = Vector2(122, 189)
+position = Vector2(120, 153)
 metadata/_edit_group_ = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
