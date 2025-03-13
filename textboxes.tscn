@@ -1,13 +1,15 @@
-[gd_scene format=3 uid="uid://hc3wb2624to3"]
+[gd_scene format=3 uid="uid://d3lxdhdga663c"]
 
-[node name="Intro" type="Label"]
+[node name="Node2D" type="Node2D"]
+
+[node name="Intro" type="Label" parent="."]
 offset_right = 2100.0
 offset_bottom = 235.0
 text = "You wake up. You are Sir Squats and It’s a beautiful day outside… For a Picnic! It’s well past due to visit Princess Getskidnappedalot
  to celebrate 1 week without any kidnapping! But first, you have the first of many vital decisions to make. What should you bring to the picnic?
                                                                                                                 Cookies, Or Steak?"
 
-[node name="Button" type="Button" parent="."]
+[node name="Button" type="Button" parent="Intro"]
 layout_mode = 0
 offset_left = 256.0
 offset_top = 256.0
@@ -15,7 +17,7 @@ offset_right = 384.0
 offset_bottom = 312.0
 text = "Cookies"
 
-[node name="Button2" type="Button" parent="."]
+[node name="Button2" type="Button" parent="Intro"]
 layout_mode = 0
 offset_left = 640.0
 offset_top = 256.0
