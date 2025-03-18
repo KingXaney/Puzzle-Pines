@@ -3,24 +3,154 @@
 [node name="textboxes" type="Node2D"]
 
 [node name="Intro" type="Label" parent="."]
-offset_right = 2100.0
-offset_bottom = 235.0
+offset_right = 1094.0
+offset_bottom = 167.0
 text = "You wake up. You are Sir Squats and It’s a beautiful day outside… For a Picnic! It’s well past due to visit Princess Getskidnappedalot
  to celebrate 1 week without any kidnapping! But first, you have the first of many vital decisions to make. What should you bring to the picnic?
                                                                                                                 Cookies, Or Steak?"
+metadata/_edit_group_ = true
 
 [node name="Button" type="Button" parent="Intro"]
 layout_mode = 0
-offset_left = 256.0
-offset_top = 256.0
-offset_right = 384.0
-offset_bottom = 312.0
+offset_left = 288.0
+offset_top = 123.0
+offset_right = 416.0
+offset_bottom = 179.0
 text = "Cookies"
+metadata/_edit_group_ = true
 
 [node name="Button2" type="Button" parent="Intro"]
 layout_mode = 0
-offset_left = 640.0
-offset_top = 256.0
-offset_right = 768.0
-offset_bottom = 312.0
+offset_left = 642.0
+offset_top = 122.0
+offset_right = 770.0
+offset_bottom = 178.0
 text = "Steak"
+metadata/_edit_group_ = true
+
+[node name="Label" type="Label" parent="."]
+offset_left = 2209.0
+offset_top = -120.0
+offset_right = 3313.0
+offset_bottom = 47.0
+text = "[As you walk through the woods you come to a strange site. 
+On top of a long wooden stake in the ground hangs a specific dress. 
+Moving around the stake you can make out a change in color based on the sunlight. 
+There is a rotting and moldy sign next to the dress. You can barely make out “What color is this dress?”]"
+horizontal_alignment = 1
+metadata/_edit_group_ = true
+
+[node name="Button" type="Button" parent="Label"]
+layout_mode = 0
+offset_left = 288.0
+offset_top = 123.0
+offset_right = 416.0
+offset_bottom = 179.0
+text = "White and Gold "
+metadata/_edit_group_ = true
+
+[node name="Button2" type="Button" parent="Label"]
+layout_mode = 0
+offset_left = 642.0
+offset_top = 122.0
+offset_right = 770.0
+offset_bottom = 178.0
+text = "Blue and Black"
+metadata/_edit_group_ = true
+
+[node name="Label2" type="Label" parent="."]
+offset_left = 3562.0
+offset_top = -133.0
+offset_right = 4666.0
+offset_bottom = 34.0
+text = "You stumble across a old troll in the middle of the road. To get by you need to answer 3 of his questions correctly. "
+horizontal_alignment = 1
+metadata/_edit_group_ = true
+
+[node name="Question 1" type="Label" parent="."]
+offset_left = 4696.0
+offset_top = -232.0
+offset_right = 5800.0
+offset_bottom = -65.0
+text = "Question 1:  Who invented the telescope?"
+horizontal_alignment = 1
+
+[node name="Button" type="Button" parent="Question 1"]
+layout_mode = 0
+offset_left = 238.0
+offset_top = 118.0
+offset_right = 369.0
+offset_bottom = 174.0
+text = "Issac Newton "
+metadata/_edit_group_ = true
+
+[node name="Button2" type="Button" parent="Question 1"]
+layout_mode = 0
+offset_left = 570.0
+offset_top = 115.0
+offset_right = 698.0
+offset_bottom = 171.0
+text = "Galileo Galilei"
+metadata/_edit_group_ = true
+
+[node name="Button3" type="Button" parent="Question 1"]
+layout_mode = 0
+offset_left = 400.0
+offset_top = 114.0
+offset_right = 528.0
+offset_bottom = 170.0
+text = "Benjamin Franklin "
+metadata/_edit_group_ = true
+
+[node name="Button4" type="Button" parent="Question 1"]
+layout_mode = 0
+offset_left = 734.0
+offset_top = 114.0
+offset_right = 862.0
+offset_bottom = 170.0
+text = "Sun Tzu"
+metadata/_edit_group_ = true
+
+[node name="Question 2" type="Label" parent="."]
+offset_left = 6083.0
+offset_top = -220.0
+offset_right = 7187.0
+offset_bottom = -53.0
+text = "Question 2:  Who isnt a philosopher?"
+horizontal_alignment = 1
+
+[node name="Button" type="Button" parent="Question 2"]
+layout_mode = 0
+offset_left = 238.0
+offset_top = 118.0
+offset_right = 369.0
+offset_bottom = 174.0
+text = "Confucious "
+metadata/_edit_group_ = true
+
+[node name="Button2" type="Button" parent="Question 2"]
+layout_mode = 0
+offset_left = 570.0
+offset_top = 115.0
+offset_right = 698.0
+offset_bottom = 171.0
+text = "Agamemnon"
+metadata/_edit_group_ = true
+
+[node name="Button3" type="Button" parent="Question 2"]
+layout_mode = 0
+offset_left = 400.0
+offset_top = 114.0
+offset_right = 528.0
+offset_bottom = 170.0
+text = "Socraties "
+metadata/_edit_group_ = true
+
+[node name="Button4" type="Button" parent="Question 2"]
+layout_mode = 0
+offset_left = 734.0
+offset_top = 114.0
+offset_right = 862.0
+offset_bottom = 170.0
+text = "Anaximander"
+metadata/_edit_group_ = true
