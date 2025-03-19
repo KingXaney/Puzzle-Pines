@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dbec4i35wb7kc"
+path="res://.godot/imported/Correct_Answer_Jingle.mp3-d583aa880ed34742d9728439ba55e8aa.mp3str"
+
+[deps]
+
+source_file="res://assets/music and sound effects/Correct_Answer_Jingle.mp3"
+dest_files=["res://.godot/imported/Correct_Answer_Jingle.mp3-d583aa880ed34742d9728439ba55e8aa.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
