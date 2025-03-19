@@ -17,7 +17,9 @@ func _on_deadly_button_pressed() -> void:
 	if(playerDead == false):
 		KillPlayer.emit()
 	
-
+func _on_correct_button_pressed() -> void:
+	var x=45
+	
 
 func _on_player_tell_dead(dead):
 	if dead==true: 
