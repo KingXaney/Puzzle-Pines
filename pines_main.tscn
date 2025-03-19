@@ -1,5 +1,6 @@
-[gd_scene load_steps=6 format=4 uid="uid://dofs3ejwsfef0"]
+[gd_scene load_steps=7 format=4 uid="uid://dofs3ejwsfef0"]
 
+[ext_resource type="Script" path="res://pines_main.gd" id="1_tjd1d"]
 [ext_resource type="Texture2D" uid="uid://bt1vis3sxs0yj" path="res://N_b6N3.png" id="1_tjikj"]
 [ext_resource type="PackedScene" uid="uid://yy2qibhtm1mr" path="res://player.tscn" id="2_o7kke"]
 [ext_resource type="PackedScene" uid="uid://d3lxdhdga663c" path="res://textboxes.tscn" id="3_0n0t7"]
@@ -9,6 +10,7 @@
 distance = -431.0
 
 [node name="pines_main" type="Node2D"]
+script = ExtResource("1_tjd1d")
 
 [node name="Player" parent="." instance=ExtResource("2_o7kke")]
 position = Vector2(299, 514)
