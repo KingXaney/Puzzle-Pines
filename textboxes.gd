@@ -1,6 +1,9 @@
 extends Node2D
+signal KillPlayer
+const DISABLE = 1
+const ENABLE = 2
 
-
+var playerDead = false
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	pass # Replace with function body.
@@ -10,38 +13,16 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	pass
 
-
-func _on_button_pressed() -> void:
-	get_tree().reload_current_scene()
-
-
-func _on_button_3_pressed() -> void:
-	get_tree().reload_current_scene()
+func _on_deadly_button_pressed() -> void:
+	if(playerDead == false):
+		KillPlayer.emit()
+	
 
 
-func _on_button_4_pressed() -> void:
-	get_tree().reload_current_scene()
+func _on_player_tell_dead(dead):
+	if dead==true: 
+		playerDead = true
+	elif dead==false:
+		playerDead=false
 
-
-func _on_confucious_pressed() -> void:
-	get_tree().reload_current_scene()
-
-
-func _on_socraties_pressed() -> void:
-	get_tree().reload_current_scene()
-
-
-func _on_anaximander_button_up() -> void:
-	get_tree().reload_current_scene()
-
-
-func _on_c_pressed() -> void:
-	get_tree().reload_current_scene()
-
-
-func _on_b_pressed() -> void:
-	get_tree().reload_current_scene()
-
-
-func _on_c1_pressed() -> void:
-	get_tree().reload_current_scene()
+	

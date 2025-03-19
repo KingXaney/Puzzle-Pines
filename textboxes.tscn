@@ -1,13 +1,13 @@
 [gd_scene load_steps=2 format=3 uid="uid://d3lxdhdga663c"]
 
-[ext_resource type="Script" path="res://textboxes.gd" id="1_aff08"]
+[ext_resource type="Script" path="res://textboxes.gd" id="1_nwl8t"]
 
 [node name="textboxes" type="Node2D"]
-script = ExtResource("1_aff08")
+script = ExtResource("1_nwl8t")
 
 [node name="Intro" type="Label" parent="."]
 offset_right = 1094.0
-offset_bottom = 167.0
+offset_bottom = 75.0
 text = "You wake up. You are Sir Squats and It’s a beautiful day outside… For a Picnic! It’s well past due to visit Princess Getskidnappedalot
  to celebrate 1 week without any kidnapping! But first, you have the first of many vital decisions to make. What should you bring to the picnic?
                                                                                                                 Cookies, Or Steak?"
@@ -32,10 +32,11 @@ text = "Steak"
 metadata/_edit_group_ = true
 
 [node name="Label" type="Label" parent="."]
-offset_left = 2211.0
-offset_top = -52.0
-offset_right = 3315.0
-offset_bottom = 115.0
+offset_left = 1784.0
+offset_top = -79.0
+offset_right = 2888.0
+offset_bottom = 88.0
+pivot_offset = Vector2(536, 78)
 text = "[As you walk through the woods you come to a strange site. 
 On top of a long wooden stake in the ground hangs a specific dress. 
 Moving around the stake you can make out a change in color based on the sunlight. 
@@ -71,6 +72,7 @@ horizontal_alignment = 1
 metadata/_edit_group_ = true
 
 [node name="Question 1" type="Label" parent="."]
+modulate = Color(1, 1, 1, 0)
 offset_left = 4735.0
 offset_top = -105.0
 offset_right = 5839.0
@@ -202,12 +204,12 @@ offset_bottom = 170.0
 text = "C#"
 metadata/_edit_group_ = true
 
-[connection signal="pressed" from="Question 1/Button" to="." method="_on_button_pressed"]
-[connection signal="pressed" from="Question 1/Button3" to="." method="_on_button_3_pressed"]
-[connection signal="pressed" from="Question 1/Button4" to="." method="_on_button_4_pressed"]
-[connection signal="pressed" from="Question 2/Confucious" to="." method="_on_confucious_pressed"]
-[connection signal="pressed" from="Question 2/Socraties" to="." method="_on_socraties_pressed"]
-[connection signal="button_up" from="Question 2/Anaximander" to="." method="_on_anaximander_button_up"]
-[connection signal="pressed" from="Question 3/C" to="." method="_on_c_pressed"]
-[connection signal="pressed" from="Question 3/B" to="." method="_on_b_pressed"]
-[connection signal="pressed" from="Question 3/C#" to="." method="_on_c1_pressed"]
+[connection signal="pressed" from="Question 1/Button" to="." method="_on_deadly_button_pressed"]
+[connection signal="pressed" from="Question 1/Button3" to="." method="_on_deadly_button_pressed"]
+[connection signal="pressed" from="Question 1/Button4" to="." method="_on_deadly_button_pressed"]
+[connection signal="pressed" from="Question 2/Confucious" to="." method="_on_deadly_button_pressed"]
+[connection signal="pressed" from="Question 2/Socraties" to="." method="_on_deadly_button_pressed"]
+[connection signal="pressed" from="Question 2/Anaximander" to="." method="_on_deadly_button_pressed"]
+[connection signal="pressed" from="Question 3/C" to="." method="_on_deadly_button_pressed"]
+[connection signal="pressed" from="Question 3/B" to="." method="_on_deadly_button_pressed"]
+[connection signal="pressed" from="Question 3/C#" to="." method="_on_deadly_button_pressed"]
