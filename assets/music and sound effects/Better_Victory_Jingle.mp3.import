@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cgqpl0a0v6j1r"
+path="res://.godot/imported/Better_Victory_Jingle.mp3-667dcfd0c9c77a93df254fa2bb505c6d.mp3str"
+
+[deps]
+
+source_file="res://assets/music and sound effects/Better_Victory_Jingle.mp3"
+dest_files=["res://.godot/imported/Better_Victory_Jingle.mp3-667dcfd0c9c77a93df254fa2bb505c6d.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
