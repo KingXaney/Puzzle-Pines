@@ -1,9 +1,12 @@
-[gd_scene load_steps=5 format=3 uid="uid://d3lxdhdga663c"]
+[gd_scene load_steps=8 format=3 uid="uid://d3lxdhdga663c"]
 
 [ext_resource type="Script" path="res://textboxes.gd" id="1_nwl8t"]
+[ext_resource type="Script" path="res://intro.gd" id="2_ovmtf"]
 [ext_resource type="Script" path="res://question_1.gd" id="2_w28x1"]
+[ext_resource type="Script" path="res://label.gd" id="3_hg8r3"]
 [ext_resource type="Script" path="res://question_2.gd" id="3_j7heu"]
 [ext_resource type="Script" path="res://question_3.gd" id="4_1o3ke"]
+[ext_resource type="Script" path="res://label_2.gd" id="4_xxycg"]
 
 [node name="textboxes" type="Node2D"]
 script = ExtResource("1_nwl8t")
@@ -14,6 +17,7 @@ offset_bottom = 75.0
 text = "You wake up. You are Sir Squats and It’s a beautiful day outside… For a Picnic! It’s well past due to visit Princess Getskidnappedalot
  to celebrate 1 week without any kidnapping! But first, you have the first of many vital decisions to make. What should you bring to the picnic?
                                                                                                                 Cookies, Or Steak?"
+script = ExtResource("2_ovmtf")
 metadata/_edit_group_ = true
 
 [node name="Button" type="Button" parent="Intro"]
@@ -45,6 +49,7 @@ On top of a long wooden stake in the ground hangs a specific dress.
 Moving around the stake you can make out a change in color based on the sunlight. 
 There is a rotting and moldy sign next to the dress. You can barely make out “What color is this dress?”]"
 horizontal_alignment = 1
+script = ExtResource("3_hg8r3")
 metadata/_edit_group_ = true
 
 [node name="Button" type="Button" parent="Label"]
@@ -72,6 +77,7 @@ offset_right = 4650.0
 offset_bottom = 98.0
 text = "You stumble across a old troll in the middle of the road. To get by you need to answer 3 of his questions correctly. "
 horizontal_alignment = 1
+script = ExtResource("4_xxycg")
 metadata/_edit_group_ = true
 
 [node name="Question 1" type="Label" parent="."]
@@ -209,6 +215,13 @@ offset_bottom = 170.0
 text = "C#"
 metadata/_edit_group_ = true
 
+[connection signal="pressed" from="Intro/Button" to="." method="_on_correct_button_pressed"]
+[connection signal="pressed" from="Intro/Button" to="Intro" method="_on_correct_button_pressed"]
+[connection signal="pressed" from="Intro/Button2" to="." method="_on_correct_button_pressed"]
+[connection signal="pressed" from="Intro/Button2" to="Intro" method="_on_correct_button_pressed"]
+[connection signal="pressed" from="Label/Button" to="." method="_on_correct_button_pressed"]
+[connection signal="pressed" from="Label/Button" to="Label" method="_on_correct_button_pressed"]
+[connection signal="pressed" from="Label/Button2" to="." method="_on_deadly_button_pressed"]
 [connection signal="pressed" from="Question 1/Button" to="." method="_on_deadly_button_pressed"]
 [connection signal="pressed" from="Question 1/Button2" to="." method="_on_correct_button_pressed"]
 [connection signal="pressed" from="Question 1/Button2" to="Question 1" method="_on_correct_button_pressed"]

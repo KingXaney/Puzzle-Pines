@@ -20,6 +20,7 @@ func _on_deadly_button_pressed() -> void:
 	
 func _on_correct_button_pressed() -> void:
 	PlayerCorrect.emit()
+	print("emitted!")
 
 func _on_player_tell_dead(dead):
 	if dead==true: 

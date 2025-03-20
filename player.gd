@@ -52,6 +52,7 @@ func _on_textboxes_kill_player():
 		dead = true
 		tellDead.emit(dead)
 		$DeathParticles.emitting = true
+		$ThinkParticles.emitting = false
 		$AnimatedSprite2D.hide()
 		$DeathTimer.start()
 		await $DeathTimer.timeout
@@ -61,6 +62,8 @@ func _on_textboxes_kill_player():
 		$AnimatedSprite2D.show()
 		position.x=421
 		position.y=145
+		playerLocked=false
+		print(playerLocked)
 	
 
 

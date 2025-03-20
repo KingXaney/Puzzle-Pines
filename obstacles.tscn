@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=4 uid="uid://3luxguwuy3fy"]
 
-[ext_resource type="TileSet" uid="uid://m6s587tfae7a" path="res://foresttiles.tres" id="1_0amal"]
+[ext_resource type="TileSet" uid="uid://30h3tqvwo23v" path="res://foresttiles.tres" id="1_0amal"]
 
 [node name="obstacles" type="Node2D"]
 

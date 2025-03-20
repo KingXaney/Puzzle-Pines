@@ -17,7 +17,7 @@ func _process(delta: float):
 			n.modulate.a = 0.0
 		elif(distance<full_opacity_threshold):
 			n.modulate.a=1
-			if $Player.playerLocked == false:
+			if $Player.playerLocked == false and n.visible == true and !n.is_in_group("lore"):
 				LockPlayer.emit(true)
 		else:
 			var alpha = 1.0-(distance/(min_opacity_distance))
@@ -29,5 +29,4 @@ func _process(delta: float):
 
 func _on_player_correct():
 	$Player/CorrectSound.play()
-	if $Player.playerLocked == true:
-		LockPlayer.emit(false)
+	LockPlayer.emit(false)
