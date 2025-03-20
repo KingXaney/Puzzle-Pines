@@ -1,10 +1,9 @@
-[gd_scene load_steps=6 format=3 uid="uid://d3lxdhdga663c"]
+[gd_scene load_steps=5 format=3 uid="uid://d3lxdhdga663c"]
 
 [ext_resource type="Script" path="res://textboxes.gd" id="1_nwl8t"]
 [ext_resource type="Script" path="res://question_1.gd" id="2_w28x1"]
 [ext_resource type="Script" path="res://question_2.gd" id="3_j7heu"]
 [ext_resource type="Script" path="res://question_3.gd" id="4_1o3ke"]
-[ext_resource type="AudioStream" uid="uid://dbec4i35wb7kc" path="res://assets/music and sound effects/Correct_Answer_Jingle.mp3" id="5_1kfng"]
 
 [node name="textboxes" type="Node2D"]
 script = ExtResource("1_nwl8t")
@@ -209,9 +208,6 @@ offset_right = 862.0
 offset_bottom = 170.0
 text = "C#"
 metadata/_edit_group_ = true
-
-[node name="correct_jingle" type="AudioStreamPlayer2D" parent="."]
-stream = ExtResource("5_1kfng")
 
 [connection signal="pressed" from="Question 1/Button" to="." method="_on_deadly_button_pressed"]
 [connection signal="pressed" from="Question 1/Button2" to="." method="_on_correct_button_pressed"]

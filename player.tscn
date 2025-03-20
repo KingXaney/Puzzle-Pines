@@ -1,8 +1,9 @@
-[gd_scene load_steps=27 format=3 uid="uid://yy2qibhtm1mr"]
+[gd_scene load_steps=29 format=3 uid="uid://yy2qibhtm1mr"]
 
 [ext_resource type="Script" path="res://player.gd" id="1_p6gx7"]
 [ext_resource type="Texture2D" uid="uid://cosg1ro2fmtw1" path="res://assets/sprites/knight.png" id="1_xnngd"]
 [ext_resource type="Texture2D" uid="uid://dtkej5un3o775" path="res://assets/sprites/d3hwleu-0c6e5c68-1ef9-494c-a3f5-8f6163ef2907.png" id="3_24ojg"]
+[ext_resource type="Texture2D" uid="uid://cd0sxmg0rumxv" path="res://assets/sprites/black-question-mark-icon-clip-art-10.png" id="4_ohjtp"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_o3yby"]
 atlas = ExtResource("1_xnngd")
@@ -173,6 +174,17 @@ gravity = Vector3(0, 70, 0)
 scale_min = 0.07
 scale_max = 0.1
 
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_2becq"]
+particle_flag_disable_z = true
+emission_shape_offset = Vector3(0, -50, 0)
+angle_min = 320.0
+angle_max = 400.0
+initial_velocity_min = -120.0
+initial_velocity_max = 120.0
+gravity = Vector3(0, -98, 0)
+scale_min = 0.1
+scale_max = 0.2
+
 [node name="Player" type="CharacterBody2D"]
 position = Vector2(421, 540)
 script = ExtResource("1_p6gx7")
@@ -192,7 +204,14 @@ scale = Vector2(8.5, 7.625)
 shape = SubResource("RectangleShape2D_kphyu")
 metadata/_edit_group_ = true
 
-[node name="GPUParticles2D" type="GPUParticles2D" parent="."]
+[node name="DeathParticles" type="GPUParticles2D" parent="."]
 emitting = false
 process_material = SubResource("ParticleProcessMaterial_h234t")
 texture = ExtResource("3_24ojg")
+
+[node name="ThinkParticles" type="GPUParticles2D" parent="."]
+emitting = false
+amount = 5
+process_material = SubResource("ParticleProcessMaterial_2becq")
+texture = ExtResource("4_ohjtp")
+lifetime = 1.6

@@ -1,5 +1,6 @@
 extends Node2D
 signal KillPlayer
+signal PlayerCorrect
 const DISABLE = 1
 const ENABLE = 2
 
@@ -18,13 +19,10 @@ func _on_deadly_button_pressed() -> void:
 		KillPlayer.emit()
 	
 func _on_correct_button_pressed() -> void:
-	var x=45
-	
+	PlayerCorrect.emit()
 
 func _on_player_tell_dead(dead):
 	if dead==true: 
 		playerDead = true
 	elif dead==false:
 		playerDead=false
-
-	
