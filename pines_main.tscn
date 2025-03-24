@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=4 uid="uid://dofs3ejwsfef0"]
+[gd_scene load_steps=9 format=4 uid="uid://dofs3ejwsfef0"]
 
 [ext_resource type="Script" path="res://pines_main.gd" id="1_tjd1d"]
 [ext_resource type="Texture2D" uid="uid://bt1vis3sxs0yj" path="res://N_b6N3.png" id="1_tjikj"]
@@ -6,6 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://d3lxdhdga663c" path="res://textboxes.tscn" id="3_0n0t7"]
 [ext_resource type="TileSet" uid="uid://30h3tqvwo23v" path="res://foresttiles.tres" id="4_pg860"]
 [ext_resource type="Texture2D" uid="uid://bgj3h25dv6tgs" path="res://assets/sprites/The_dress_blueblackwhitegold.jpg" id="6_7mh20"]
+[ext_resource type="Texture2D" uid="uid://t3a3fi3dvjgq" path="res://assets/sprites/princess.png" id="7_fntqc"]
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_iuoa5"]
 distance = -431.0
@@ -56,6 +57,11 @@ tile_set = ExtResource("4_pg860")
 position = Vector2(2804, 598)
 scale = Vector2(0.605469, 0.520566)
 texture = ExtResource("6_7mh20")
+
+[node name="Princess" type="Sprite2D" parent="."]
+position = Vector2(17419, 563)
+scale = Vector2(0.248853, 0.194867)
+texture = ExtResource("7_fntqc")
 
 [connection signal="LockPlayer" from="." to="Player" method="_on_lock_player"]
 [connection signal="tellDead" from="Player" to="textboxes" method="_on_player_tell_dead"]
