@@ -75,7 +75,7 @@ offset_left = 3546.0
 offset_top = -69.0
 offset_right = 4650.0
 offset_bottom = 98.0
-text = "You stumble across a old troll in the middle of the road. To get by you need to answer 3 of his questions correctly. "
+text = "You stumble across a old troll in the middle of the road. To get by you need to answer 10 of his questions correctly to get to the princress."
 horizontal_alignment = 1
 script = ExtResource("4_xxycg")
 metadata/_edit_group_ = true
@@ -215,6 +215,331 @@ offset_bottom = 170.0
 text = "C#"
 metadata/_edit_group_ = true
 
+[node name="Question 4" type="Label" parent="."]
+offset_left = 8687.0
+offset_top = -80.0
+offset_right = 9791.0
+offset_bottom = 87.0
+text = "Question 4:  What is big."
+horizontal_alignment = 1
+script = ExtResource("3_j7heu")
+
+[node name="Confucious" type="Button" parent="Question 4"]
+layout_mode = 0
+offset_left = 238.0
+offset_top = 118.0
+offset_right = 369.0
+offset_bottom = 174.0
+text = "Sun"
+metadata/_edit_group_ = true
+
+[node name="Socraties" type="Button" parent="Question 4"]
+layout_mode = 0
+offset_left = 400.0
+offset_top = 114.0
+offset_right = 528.0
+offset_bottom = 170.0
+text = "Blue WALE"
+metadata/_edit_group_ = true
+
+[node name="Agamemnon" type="Button" parent="Question 4"]
+layout_mode = 0
+offset_left = 570.0
+offset_top = 115.0
+offset_right = 698.0
+offset_bottom = 171.0
+text = "WHAT"
+metadata/_edit_group_ = true
+
+[node name="Anaximander" type="Button" parent="Question 4"]
+layout_mode = 0
+offset_left = 734.0
+offset_top = 114.0
+offset_right = 862.0
+offset_bottom = 170.0
+text = "BIG"
+metadata/_edit_group_ = true
+
+[node name="Question 5" type="Label" parent="."]
+offset_left = 9949.0
+offset_top = -128.0
+offset_right = 11053.0
+offset_bottom = 39.0
+text = "Question 5:  what does Mr Sheldon DRINK  in the morning??!!!"
+horizontal_alignment = 1
+script = ExtResource("4_1o3ke")
+
+[node name="Lisp" type="Button" parent="Question 5"]
+layout_mode = 0
+offset_left = 238.0
+offset_top = 118.0
+offset_right = 369.0
+offset_bottom = 174.0
+text = "Coffee?"
+metadata/_edit_group_ = true
+
+[node name="C" type="Button" parent="Question 5"]
+layout_mode = 0
+offset_left = 570.0
+offset_top = 115.0
+offset_right = 698.0
+offset_bottom = 171.0
+text = "Right Answer "
+metadata/_edit_group_ = true
+
+[node name="B" type="Button" parent="Question 5"]
+layout_mode = 0
+offset_left = 400.0
+offset_top = 114.0
+offset_right = 528.0
+offset_bottom = 170.0
+text = "TEA"
+metadata/_edit_group_ = true
+
+[node name="C#" type="Button" parent="Question 5"]
+layout_mode = 0
+offset_left = 734.0
+offset_top = 114.0
+offset_right = 862.0
+offset_bottom = 170.0
+text = "Wrong Answer"
+metadata/_edit_group_ = true
+
+[node name="Question 6" type="Label" parent="."]
+offset_left = 11156.0
+offset_top = -138.0
+offset_right = 12260.0
+offset_bottom = 29.0
+text = "Question 6:  Are you having fun?"
+horizontal_alignment = 1
+script = ExtResource("4_1o3ke")
+
+[node name="Lisp" type="Button" parent="Question 6"]
+layout_mode = 0
+offset_left = 706.0
+offset_top = 112.0
+offset_right = 837.0
+offset_bottom = 168.0
+text = "Perchance"
+metadata/_edit_group_ = true
+
+[node name="C" type="Button" parent="Question 6"]
+layout_mode = 0
+offset_left = 570.0
+offset_top = 115.0
+offset_right = 698.0
+offset_bottom = 171.0
+text = "Maybe"
+metadata/_edit_group_ = true
+
+[node name="B" type="Button" parent="Question 6"]
+layout_mode = 0
+offset_left = 236.0
+offset_top = 118.0
+offset_right = 364.0
+offset_bottom = 174.0
+text = "YEA WHY NOT"
+metadata/_edit_group_ = true
+
+[node name="C#" type="Button" parent="Question 6"]
+layout_mode = 0
+offset_left = 405.0
+offset_top = 122.0
+offset_right = 533.0
+offset_bottom = 178.0
+text = "For-sure"
+metadata/_edit_group_ = true
+
+[node name="Question 7" type="Label" parent="."]
+offset_left = 12253.0
+offset_top = -141.0
+offset_right = 13357.0
+offset_bottom = 26.0
+text = "Question 7:  e^(i*pi) + 1 = ???"
+horizontal_alignment = 1
+script = ExtResource("4_1o3ke")
+
+[node name="Lisp" type="Button" parent="Question 7"]
+layout_mode = 0
+offset_left = 238.0
+offset_top = 118.0
+offset_right = 369.0
+offset_bottom = 174.0
+text = "1"
+metadata/_edit_group_ = true
+
+[node name="C" type="Button" parent="Question 7"]
+layout_mode = 0
+offset_left = 570.0
+offset_top = 115.0
+offset_right = 698.0
+offset_bottom = 171.0
+text = "34.56"
+metadata/_edit_group_ = true
+
+[node name="B" type="Button" parent="Question 7"]
+layout_mode = 0
+offset_left = 399.0
+offset_top = 121.0
+offset_right = 527.0
+offset_bottom = 177.0
+text = "2"
+metadata/_edit_group_ = true
+
+[node name="C#" type="Button" parent="Question 7"]
+layout_mode = 0
+offset_left = 734.0
+offset_top = 114.0
+offset_right = 862.0
+offset_bottom = 170.0
+text = "56.345"
+metadata/_edit_group_ = true
+
+[node name="Question 8" type="Label" parent="."]
+offset_left = 13343.0
+offset_top = -148.0
+offset_right = 14447.0
+offset_bottom = 19.0
+text = "Question 8:  Peter Piper picked a peck of pickled peppers.
+A peck of pickled peppers Peter Piper picked.
+If Peter Piper picked a peck of pickled peppers,
+Where’s the peck of pickled peppers Peter Piper picked? (MUST READ OUT LOAD!!!!)"
+horizontal_alignment = 1
+script = ExtResource("4_1o3ke")
+
+[node name="Lisp" type="Button" parent="Question 8"]
+layout_mode = 0
+offset_left = 709.0
+offset_top = 119.0
+offset_right = 840.0
+offset_bottom = 175.0
+text = "Pocket"
+metadata/_edit_group_ = true
+
+[node name="C" type="Button" parent="Question 8"]
+layout_mode = 0
+offset_left = 570.0
+offset_top = 115.0
+offset_right = 698.0
+offset_bottom = 171.0
+text = "Home"
+metadata/_edit_group_ = true
+
+[node name="B" type="Button" parent="Question 8"]
+layout_mode = 0
+offset_left = 400.0
+offset_top = 114.0
+offset_right = 528.0
+offset_bottom = 170.0
+text = "Church?"
+metadata/_edit_group_ = true
+
+[node name="C#" type="Button" parent="Question 8"]
+layout_mode = 0
+offset_left = 218.0
+offset_top = 118.0
+offset_right = 380.0
+offset_bottom = 174.0
+text = "GRANDMA'S HOUSE"
+metadata/_edit_group_ = true
+
+[node name="Question 9" type="Label" parent="."]
+offset_left = 14382.0
+offset_top = -151.0
+offset_right = 15486.0
+offset_bottom = 16.0
+text = "Question 9:  What came first?"
+horizontal_alignment = 1
+script = ExtResource("4_1o3ke")
+
+[node name="Lisp" type="Button" parent="Question 9"]
+layout_mode = 0
+offset_left = 554.0
+offset_top = 110.0
+offset_right = 685.0
+offset_bottom = 166.0
+text = "What"
+metadata/_edit_group_ = true
+
+[node name="C" type="Button" parent="Question 9"]
+layout_mode = 0
+offset_left = 220.0
+offset_top = 102.0
+offset_right = 348.0
+offset_bottom = 158.0
+text = "Egg"
+metadata/_edit_group_ = true
+
+[node name="B" type="Button" parent="Question 9"]
+layout_mode = 0
+offset_left = 374.0
+offset_top = 109.0
+offset_right = 502.0
+offset_bottom = 165.0
+text = "Fish"
+metadata/_edit_group_ = true
+
+[node name="C#" type="Button" parent="Question 9"]
+layout_mode = 0
+offset_left = 734.0
+offset_top = 114.0
+offset_right = 862.0
+offset_bottom = 170.0
+text = "Chicken"
+metadata/_edit_group_ = true
+
+[node name="Question 10" type="Label" parent="."]
+offset_left = 15408.0
+offset_top = -151.0
+offset_right = 16512.0
+offset_bottom = 16.0
+text = "Question 10:  Do you remember what you picked?"
+horizontal_alignment = 1
+script = ExtResource("4_1o3ke")
+
+[node name="Lisp" type="Button" parent="Question 10"]
+layout_mode = 0
+offset_left = 727.0
+offset_top = 117.0
+offset_right = 858.0
+offset_bottom = 173.0
+text = "Chicken"
+metadata/_edit_group_ = true
+
+[node name="C" type="Button" parent="Question 10"]
+layout_mode = 0
+offset_left = 570.0
+offset_top = 115.0
+offset_right = 698.0
+offset_bottom = 171.0
+text = "Black and Blue"
+metadata/_edit_group_ = true
+
+[node name="B" type="Button" parent="Question 10"]
+layout_mode = 0
+offset_left = 400.0
+offset_top = 114.0
+offset_right = 528.0
+offset_bottom = 170.0
+text = "Zues"
+metadata/_edit_group_ = true
+
+[node name="C#" type="Button" parent="Question 10"]
+layout_mode = 0
+offset_left = 253.0
+offset_top = 116.0
+offset_right = 381.0
+offset_bottom = 172.0
+text = "C#"
+metadata/_edit_group_ = true
+
+[node name="Label3" type="Label" parent="."]
+offset_left = 16766.0
+offset_top = -53.0
+offset_right = 17250.0
+offset_bottom = -30.0
+text = "YOU WIN AND SAVE THE PRINCESS"
+
 [connection signal="pressed" from="Intro/Button" to="." method="_on_correct_button_pressed"]
 [connection signal="pressed" from="Intro/Button" to="Intro" method="_on_correct_button_pressed"]
 [connection signal="pressed" from="Intro/Button2" to="." method="_on_correct_button_pressed"]
@@ -237,3 +562,38 @@ metadata/_edit_group_ = true
 [connection signal="pressed" from="Question 3/C" to="." method="_on_deadly_button_pressed"]
 [connection signal="pressed" from="Question 3/B" to="." method="_on_deadly_button_pressed"]
 [connection signal="pressed" from="Question 3/C#" to="." method="_on_deadly_button_pressed"]
+[connection signal="pressed" from="Question 4/Confucious" to="." method="_on_deadly_button_pressed"]
+[connection signal="pressed" from="Question 4/Socraties" to="." method="_on_deadly_button_pressed"]
+[connection signal="pressed" from="Question 4/Agamemnon" to="." method="_on_correct_button_pressed"]
+[connection signal="pressed" from="Question 4/Agamemnon" to="Question 4" method="_on_correct_button_pressed"]
+[connection signal="pressed" from="Question 4/Anaximander" to="." method="_on_deadly_button_pressed"]
+[connection signal="pressed" from="Question 5/Lisp" to="." method="_on_correct_button_pressed"]
+[connection signal="pressed" from="Question 5/Lisp" to="Question 5" method="_on_correct_button_pressed"]
+[connection signal="pressed" from="Question 5/C" to="." method="_on_deadly_button_pressed"]
+[connection signal="pressed" from="Question 5/B" to="." method="_on_deadly_button_pressed"]
+[connection signal="pressed" from="Question 5/C#" to="." method="_on_deadly_button_pressed"]
+[connection signal="pressed" from="Question 6/Lisp" to="." method="_on_correct_button_pressed"]
+[connection signal="pressed" from="Question 6/Lisp" to="Question 6" method="_on_correct_button_pressed"]
+[connection signal="pressed" from="Question 6/C" to="." method="_on_deadly_button_pressed"]
+[connection signal="pressed" from="Question 6/B" to="." method="_on_deadly_button_pressed"]
+[connection signal="pressed" from="Question 6/C#" to="." method="_on_deadly_button_pressed"]
+[connection signal="pressed" from="Question 7/Lisp" to="." method="_on_correct_button_pressed"]
+[connection signal="pressed" from="Question 7/Lisp" to="Question 7" method="_on_correct_button_pressed"]
+[connection signal="pressed" from="Question 7/C" to="." method="_on_deadly_button_pressed"]
+[connection signal="pressed" from="Question 7/B" to="." method="_on_deadly_button_pressed"]
+[connection signal="pressed" from="Question 7/C#" to="." method="_on_deadly_button_pressed"]
+[connection signal="pressed" from="Question 8/Lisp" to="." method="_on_correct_button_pressed"]
+[connection signal="pressed" from="Question 8/Lisp" to="Question 8" method="_on_correct_button_pressed"]
+[connection signal="pressed" from="Question 8/C" to="." method="_on_deadly_button_pressed"]
+[connection signal="pressed" from="Question 8/B" to="." method="_on_deadly_button_pressed"]
+[connection signal="pressed" from="Question 8/C#" to="." method="_on_deadly_button_pressed"]
+[connection signal="pressed" from="Question 9/Lisp" to="." method="_on_correct_button_pressed"]
+[connection signal="pressed" from="Question 9/Lisp" to="Question 9" method="_on_correct_button_pressed"]
+[connection signal="pressed" from="Question 9/C" to="." method="_on_deadly_button_pressed"]
+[connection signal="pressed" from="Question 9/B" to="." method="_on_deadly_button_pressed"]
+[connection signal="pressed" from="Question 9/C#" to="." method="_on_deadly_button_pressed"]
+[connection signal="pressed" from="Question 10/Lisp" to="." method="_on_correct_button_pressed"]
+[connection signal="pressed" from="Question 10/Lisp" to="Question 10" method="_on_correct_button_pressed"]
+[connection signal="pressed" from="Question 10/C" to="." method="_on_deadly_button_pressed"]
+[connection signal="pressed" from="Question 10/B" to="." method="_on_deadly_button_pressed"]
+[connection signal="pressed" from="Question 10/C#" to="." method="_on_deadly_button_pressed"]
