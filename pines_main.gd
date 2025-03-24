@@ -9,6 +9,8 @@ func _ready() -> void:
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float):
+	if Input.is_action_pressed("restart"):
+		get_tree().reload_current_scene()
 	#cadjusts alpha value of labels and their child buttons depending on the distance between them. 
 	for n in $textboxes.get_children():
 		var nCenter = n.global_position +(get_viewport_rect().size /2)
